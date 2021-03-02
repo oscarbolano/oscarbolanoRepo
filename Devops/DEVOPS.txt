@@ -1,0 +1,1 @@
+Arquitectura basada en servicios que se integran de acuerdo a la necesidad del sistema.
