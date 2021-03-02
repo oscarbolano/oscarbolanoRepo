@@ -9,7 +9,7 @@
   * Ser persona.
 3.
 a. Herramientas que podrían compartir con los demás departamentos para una mejor colaboración.
- * Office 365, Monday
+ * Office 365, trello
 b. Estructura para que exista una comunicación con todos los departamentos de la empresa: Pueden realizar un diagrama.
  * Segregar por areas o proyectos para que no se sobrecargue el personal y se disminuyan tiempos de respuesta.
 c. Mecanismo para la toma de decisiones (e.g. Votación electronica anonima, Un consejo de arquitectos, etc.)
