@@ -13,4 +13,4 @@ a. Herramientas que podrían compartir con los demás departamentos para una mej
 b. Estructura para que exista una comunicación con todos los departamentos de la empresa: Pueden realizar un diagrama.
  * Segregar por areas o proyectos para que no se sobrecargue el personal y se disminuyan tiempos de respuesta.
 c. Mecanismo para la toma de decisiones (e.g. Votación electronica anonima, Un consejo de arquitectos, etc.)
- * Cada lider se reuna con su grupo y luego re reunan los lideres para tomar decisiones.
+ * Cada lider realiza reunión con su equipo y luego hacen consejo los lideres para tomar decisiones.
