@@ -1,1 +1,5 @@
-Arquitectura basada en servicios que se integran de acuerdo a la necesidad del sistema.
+1. DEVOPS: Arquitectura basada en servicios que se integran de acuerdo a la necesidad del sistema.
+2. Ideas para generar más empatía, confianza y seguridad psicológica en el equipo:
+  * Saber escuchar y comprender las ideas de los compañeros del equipo.
+  * Ponerse en el lugar de aquella persona para comprender lo que siente.
+  * Mantener una comunicación asertiva con los integrantes del equipo.
