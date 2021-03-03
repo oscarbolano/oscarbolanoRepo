@@ -14,3 +14,7 @@ b. Estructura para que exista una comunicación con todos los departamentos de l
  * Segregar por areas o proyectos para que no se sobrecargue el personal y se disminuyan tiempos de respuesta.
 c. Mecanismo para la toma de decisiones (e.g. Votación electronica anonima, Un consejo de arquitectos, etc.)
  * Cada lider realiza reunión con su equipo y luego hacen consejo los lideres para tomar decisiones.
+
+4. Procedimiento equipo de desarrollo.
+https://docs.google.com/spreadsheets/d/1Z2dDORZnKq0jXP5TyVMWXUlYdk82xd-k/edit?rtpof=true#gid=878250391
+
