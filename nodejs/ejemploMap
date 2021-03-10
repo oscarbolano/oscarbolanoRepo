@@ -1,4 +1,7 @@
-
+/*
+Simula la validación de un login que al ingresar codigo del usuario
+verifica si existe en el map
+*/
 let mapUsuarios = new Map();
 mapUsuarios.set(1,"Alexis");
 mapUsuarios.set(2,"Edgar");
