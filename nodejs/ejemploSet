@@ -11,4 +11,4 @@ class Valida{
 }
 let valida = new Valida();
 valida.numeros();
-console.log("Los valores numericos son: "+setNumeros);
+console.log("Los valores numericos son: "+[...setNumeros]);
