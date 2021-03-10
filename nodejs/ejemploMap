@@ -1,1 +1,28 @@
 
+let mapUsuarios = new Map();
+mapUsuarios.set(1,"Alexis");
+mapUsuarios.set(2,"Edgar");
+mapUsuarios.set(3,"Gustavo");
+mapUsuarios.set(4,"Javier");
+mapUsuarios.set(5,"Miguel");
+mapUsuarios.set(6,"Wilman");
+mapUsuarios.set(7,"Wilmer");
+mapUsuarios.set(8,"Gustavo");
+mapUsuarios.set(9,"Brayan");
+mapUsuarios.set(10,"Oscar");
+
+console.log("Ingrese el codigo del usuario");
+let keyUsuario = 5;
+let existeUsuario = false;
+let nombreUsuario = "";
+for(let [key,value] of mapUsuarios){
+    if(key === keyUsuario){
+        existeUsuario = true;
+        nombreUsuario = value;
+    }
+}
+if(existeUsuario){
+    console.log("Su nombre de usuario es: "+nombreUsuario);
+}else{
+    console.log("No existe el usuario");
+}
