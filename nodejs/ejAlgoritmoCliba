@@ -1,0 +1,17 @@
+function sieve(valor){
+    let arrayValores = new Uint8Array(valor+1);
+    let max = Math.floor(Math.sqrt(valor));
+    let min = 2;
+    while(min<=max){
+        for(let index = 2*min;index<=valor;index+=min){
+            arrayValores[index] = 1;
+        }
+        while(arrayValores[++min])
+        ;
+    }
+    while(arrayValores[valor]){
+        valor--;
+    }
+    return valor;
+}
+console.log(sieve(120));
