@@ -1,0 +1,9 @@
+let vocales = /[aeiou]/g;
+let text4 = "hola";
+matchText4 = text4.match(vocales);
+console.log(matchText4); 
+if(matchText4 != null){
+    for(let vocal of matchText4){
+        console.log(vocal);
+    }
+}
