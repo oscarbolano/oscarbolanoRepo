@@ -3,9 +3,9 @@
 */
 let expr1 = /[B-Z][^AEIOU]/g;
 let expr2 = /[^AEIOU]/;
-let text1 = "HOLA A TODOS";
+let text1 = "HOLA A TODOS COMPAÑEROS";
 text1 = text1.match(expr1).toString();
-//text1 = text1.match(expr2);
+text1 = text1.match(expr2);
 console.log(text1);
 
 /**
