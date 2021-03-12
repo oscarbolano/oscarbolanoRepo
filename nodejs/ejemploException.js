@@ -49,7 +49,7 @@ function validateUpdate(codigo){
         }
     }
     if(!existeUsuario){
-        throw new LoginError("Fatal","Error","El usuario no existe",new Date());
+        throw new LoginError("Fatal","El usuario no existe");
     }
 }
 try {
