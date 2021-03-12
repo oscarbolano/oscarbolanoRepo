@@ -1,3 +1,6 @@
+/**
+ * Calcular la edad a partir de la fecha de nacimiento
+ */
 function calcularEdad(fecha) {
     let hoy = new Date();
     let fechaNac = new Date(fecha);
