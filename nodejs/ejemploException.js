@@ -37,8 +37,26 @@ class LoginError extends Error{
         return "Usuario invalido";
     }
 }
-let loginError = new LoginError("Fatal","No existe usuario");
-console.log(loginError.name);
-console.log(loginError.message);
+function validateUpdate(codigo){
+    let mapUsuarios = new Map();
+    mapUsuarios.set(1,"Usuario 1").set(2,"Usuario 2").set(3,"Usuario 3");
+    let existeUsuario = false;
+    let nombreUsuario = "";
+    for(let [key,value] of mapUsuarios){
+        if(key === codigo){
+            existeUsuario = true;
+            nombreUsuario = value;
+        }
+    }
+    if(!existeUsuario){
+        throw new LoginError("Fatal","Error","El usuario no existe",new Date());
+    }
+}
+try {
+    validateUpdate(4);
+} catch (error) {
+    console.error(error.date + ": " + error.name);
+    console.error(error.message);
+}
 
 
