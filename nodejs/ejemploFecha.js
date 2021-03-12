@@ -9,4 +9,5 @@ function calcularEdad(fecha) {
     }
     return edad;
 }
-console.log(calcularEdad("10/12/1992"));
+console.log(calcularEdad("10/12/1992")+" años");
+
