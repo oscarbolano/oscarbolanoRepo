@@ -55,7 +55,7 @@ function validateUpdate(codigo){
 try {
     validateUpdate(4);
 } catch (error) {
-    console.error(error.date + ": " + error.name);
+    console.error(error.name);
     console.error(error.message);
 }
 
