@@ -1,4 +1,3 @@
-let edad;
 function calcularEdad(fecha) {
     let hoy = new Date();
     let fechaNac = new Date(fecha);
