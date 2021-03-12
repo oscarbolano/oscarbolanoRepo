@@ -3,8 +3,8 @@ function calcularEdad(fecha) {
     let hoy = new Date();
     let fechaNac = new Date(fecha);
     let edad = hoy.getFullYear() - fechaNac.getFullYear();
-    let m = hoy.getMonth() - fechaNac.getMonth();
-    if (m < 0 || (m === 0 && hoy.getDate() < fechaNac.getDate())) {
+    let mes = hoy.getMonth() - fechaNac.getMonth();
+    if (mes < 0 || (mes === 0 && hoy.getDate() < fechaNac.getDate())) {
         edad--;
     }
     return edad;
