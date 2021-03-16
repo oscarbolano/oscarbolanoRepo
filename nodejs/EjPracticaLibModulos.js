@@ -1,7 +1,7 @@
 /**
  * Ejercicio para poner en practica la libreria y modulos JavaScript
  * 
- * Facturacion de un almacen, con login
+ * Venta por internet, con login.
  */
 let mapRoles = new Map();
 mapRoles.set(1, { nombre: "Administrador", descripcion: "Es un super tiene acceso a todo" });
@@ -84,21 +84,19 @@ try {
         let menu = "Seleccione una opción: \n" +
             "1. Ingresar producto\n" +
             "2. Sacar producto\n" +
-            "3. Sacar promedio venta por vendedor\n" +
+            "3. Venta día\n" +
             "4. Buscar producto\n" +
             "5. Inventario\n" +
             "0. Salir \n";
+
+
     } else if (rol === "Gerente") {
         let menu = "Seleccione una opción: \n" +
-        "1. Sacar promedio venta por vendedor\n" +
-        "2. Buscar producto\n" +
-        "3. Inventario\n" +
-        "0. Salir \n";
-    }else if (rol === "Vendedor") {
-        let menu = "Seleccione una opción: \n" +
-        "1. Buscar producto\n" +
-        "2. Inventario\n" +
-        "0. Salir \n";
+            "1. Venta día\n" +
+            "2. Buscar producto\n" +
+            "3. Inventario\n" +
+            "0. Salir \n";
+            
     }
 } catch (error) {
     console.error(error.name);
