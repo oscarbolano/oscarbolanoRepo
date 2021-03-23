@@ -40,8 +40,11 @@ function getInfoUrl(nombreUrl) {
     url.searchParams.set("txt", "esto es texto de ejemplo");
     txtRet = `
     Href: ${url.href}  
-    Protocolo: ${url.protocol}  
-    Puerto: ${url.port}
+    Protocol: ${url.protocol}  
+    Port: ${url.port}
+    Name: ${url.pathname}
+    Search: ${url.search}
+    hash: ${url.hash}
     `;
 
     return txtRet;
