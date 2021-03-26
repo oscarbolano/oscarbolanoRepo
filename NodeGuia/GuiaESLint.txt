@@ -1,0 +1,15 @@
+Instalación:
+    - npm install eslint --save-dev   ->  Instalar
+    - npm init                        -> crear packege.json automaticamente
+    - npx eslint --init               ->  Configurar, debe estar el package.json previamente
+    
+
+Configuración:
+    - Cuando se ejecuta el --init se genera automaticamente un archivo de configuración .eslintrc
+    - En el archivo .eslintrc se configuran las reglas 
+    - El archivo .eslintrc tambien se le agrega la linea, para que se activen todas las reglas.
+        "extends": "eslint:recommended"
+
+Prueba:
+    - npx eslint yourfile.js          -> Analizar un archivo
+    
