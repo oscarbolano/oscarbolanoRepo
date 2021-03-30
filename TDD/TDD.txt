@@ -1,0 +1,6 @@
+Servicio de taxi y mototaxi en linea:
+
+La idea consiste en implementar una app que organice los servicios de transporte urbano informal taxi y mototaxi.
+Se implementaría un servicio de inscripción donde se registren los vehiculos y sus dueños
+Se implementaría un servicio de inscripción de usuarios que utilizarian el servicio
+Se implementaria un servicio de geolocalización que enlace al usuario con los vehiculos disponibles mar cercanos a su ubicación.
