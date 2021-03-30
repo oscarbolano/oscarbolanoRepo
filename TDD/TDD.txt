@@ -4,3 +4,11 @@ La idea consiste en implementar una app que organice los servicios de transporte
 Se implementaría un servicio de inscripción donde se registren los vehiculos y sus dueños
 Se implementaría un servicio de inscripción de usuarios que utilizarian el servicio
 Se implementaria un servicio de geolocalización que enlace al usuario con los vehiculos disponibles mar cercanos a su ubicación.
+
+
+Requerimientos funcionales:
+
+- El usuario debe tener la opción de solicitar servicio especificando la ubicacion donde se requiere el servicio, 
+  se debe recoger en la ubicacion indicada.
+
+- El usuario calcula su tarifa dependiendo del recorrido del servicio
