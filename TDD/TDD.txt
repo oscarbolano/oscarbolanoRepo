@@ -8,9 +8,21 @@ Se implementaria un servicio de geolocalización que enlace al usuario con los v
 
 Requerimientos funcionales:
 
-- El usuario puede loguearse creando un nuevo registro o con una cuenta de Google o Facebook.
+- Crear usuario en el sistema
 
-- El usuario debe tener la opción de solicitar servicio especificando la ubicacion donde se requiere el servicio, 
-  se debe recoger en la ubicacion indicada.
+- Loguear usuario.
 
-- El usuario calcula su tarifa dependiendo del recorrido del servicio y segun su calculo decide si toma el servicio.
+- Loguear usuario con Google
+
+- Loguear usuario con Facebook
+
+- Obtener servicio taxi disponible
+
+- Obtener servicio mototaxi disponible
+
+- Registrar ubicación del usuario
+
+- Obtener tarifa según recorrido del servicio 
+
+- Registrar servicio en el sistema
+
