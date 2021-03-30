@@ -11,4 +11,4 @@ Requerimientos funcionales:
 - El usuario debe tener la opción de solicitar servicio especificando la ubicacion donde se requiere el servicio, 
   se debe recoger en la ubicacion indicada.
 
-- El usuario calcula su tarifa dependiendo del recorrido del servicio
+- El usuario calcula su tarifa dependiendo del recorrido del servicio y segun su calculo decide si toma el servicio.
