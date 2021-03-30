@@ -8,6 +8,8 @@ Se implementaria un servicio de geolocalización que enlace al usuario con los v
 
 Requerimientos funcionales:
 
+- El usuario debe poder loguearse creando un nuevo registro o con una cuenta de Google o Facebook.
+
 - El usuario debe tener la opción de solicitar servicio especificando la ubicacion donde se requiere el servicio, 
   se debe recoger en la ubicacion indicada.
 
