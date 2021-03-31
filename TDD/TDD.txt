@@ -1,4 +1,4 @@
-Servicio de taxi y mototaxi en linea:
+****** Servicio de taxi y mototaxi en linea:
 
 La idea consiste en implementar una app que organice los servicios de transporte urbano informal taxi y mototaxi.
 Se implementaría un servicio de inscripción donde se registren los vehiculos y sus dueños
@@ -6,7 +6,7 @@ Se implementaría un servicio de inscripción de usuarios que utilizarian el ser
 Se implementaria un servicio de geolocalización que enlace al usuario con los vehiculos disponibles mar cercanos a su ubicación.
 
 
-Requerimientos funcionales:
+****** Requerimientos funcionales:
 
 - Crear usuario en el sistema
 
@@ -26,3 +26,38 @@ Requerimientos funcionales:
 
 - Registrar servicio en el sistema
 
+****** Realizar pseudopruebas por cada requerimiento funcional:
+
+1. Crear usuario en el sistema:
+    Prueba 1. Comprobar en base de datos la creación del usuario
+
+2. Loguear usuario.
+    Prueba 1. Comprobar que existe el usuario
+    Prueba 2. Si el usuario existe comprobar que pueda ingresar al sistema
+    Prueba 3. Si el usuario no existe comprobar que no pueda acceder al sistema 
+
+3. Loguear usuario con Google.
+    Prueba 1. Comprobar comunicación con servicio autenticación de google
+    Prueba 2. 
+
+4. Loguear usuario con Facebook.
+    Prueba 1. Comprobar comunicación con servicio autenticación de Facebook
+    Prueba 2. 
+
+5. Obtener servicio taxi disponible.
+    Prueba 1. Comprobar si los servicios de taxi que muestra el sistema disponibles son los mas cercanos a la ubicacion del usuario
+    Prueba 2. 
+
+6. Obtener servicio mototaxi disponible
+    Prueba 1. Comprobar si los servicios de mototaxi que muestra el sistema disponibles son los mas cercanos a la ubicacion del usuario
+    Prueba 2. 
+
+7. Registrar ubicación del usuario.
+    Prueba 1. Comprobar que la ubicación registrada en el sistema corresponde a la ubicacion correcta dle usuario
+    Prueba 2. 
+
+8. Obtener tarifa según recorrido del servicio.
+    Prueba 1. Comprobar el punto de inicio y fin del servicio solicitado por el usuario y si segun lo anterior el recorrido es correcto
+    Prueba 2. Comprobar si el calculo hecho por el sistema es correcto según el recorrido del usuario.
+
+9. Registrar servicio en el sistema
