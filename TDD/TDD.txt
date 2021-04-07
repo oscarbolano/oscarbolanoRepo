@@ -61,3 +61,54 @@ Se implementaria un servicio de geolocalización que enlace al usuario con los v
     Prueba 2. Comprobar si el calculo hecho por el sistema es correcto según el recorrido del usuario.
 
 9. Registrar servicio en el sistema
+
+
+BDD:
+
+Scenario: check user creation
+    Given it is required to fill out a form with the user's information
+    When any data has been entered incorrectly
+    Then ask the user to correct the incorrect data
+
+Scenario: Verify that the user exists
+    Given the user's credentials must be entered
+    When when the credentials are wrong
+    Then notify the user and request to correct the information
+
+Scenario: If the user exists, he will check that he can enter the system
+    Given the user must enter the system when registered
+    When the user cannot enter the system
+    Then the user must be notified of the error and the waiting time to fix it
+
+Scenario: If the user does not exist, it will verify that he cannot access the system
+    Given if the user does not exist, he should not be able to enter the system
+    When the user can enter the system
+    Then the session must be disconnected for security
+
+Scenario: Check if the available services shown by the system are the closest to the user's location
+    Given the user must be shown the available services closest to their location
+    When the listed services are not the closest
+    Then there should be an alert to review the fault and repair the system
+
+Scenario: Check that the location registered in the system corresponds to the user location
+    Given it is required to save the user's location
+    When the saved location does not match the user's current location
+    Then update the location in the system
+
+Scenario: Check the start and end point of the service requested by the user and if, according to the above, the route is correct
+    Given
+    When
+    Then
+
+Scenario: Check if the calculation made by the system is correct according to the user's journey.
+    Given
+    When
+    Then
+
+Scenario: Check the service log on the system
+    Given
+    When
+    Then
+
+
+
