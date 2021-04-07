@@ -12,13 +12,7 @@ Se implementaria un servicio de geolocalización que enlace al usuario con los v
 
 - Loguear usuario.
 
-- Loguear usuario con Google
-
-- Loguear usuario con Facebook
-
-- Obtener servicio taxi disponible
-
-- Obtener servicio mototaxi disponible
+- Obtener servicio disponible
 
 - Registrar ubicación del usuario
 
