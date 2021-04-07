@@ -1,44 +1,44 @@
-Scenarios: Comprobar la creación del usuario
+Scenario: Comprobar la creación del usuario
     Give que se requiere diligenciar formulario con la información del usuario
     When cuando algun dato haya sido ingresado incorrectamente
     Then solicitar al usuario corregir el dato incorrecto
 
-Scenarios: Comprobar que existe el usuario
+Scenario: Comprobar que existe el usuario
     Give que se debe ingresar las credenciales del usuario
     When cuando lsa credenciales sean incorrectas 
     Entonces notificar al usuario y solicitar corregir la información
 
-Scenarios: Si el usuario existe comprobar que pueda ingresar al sistema
+Scenario: Si el usuario existe comprobar que pueda ingresar al sistema
     Give que el usuario debe ingresar al sistema cuando está registrado
     When el usuario no puede ingresar al sistema
     Then se debe notificar al usuario del error y el tiempo de espera para solucionarlo
 
-Scenarios: Si el usuario no existe comprobar que no pueda acceder al sistema
+Scenario: Si el usuario no existe comprobar que no pueda acceder al sistema
     Give que si el usuario no existe no debe poder ingresar al sistema
     When el usuario si puede ingresar al sistema
     Then debe desconectarse la sesión por seguridad
 
-Scenarios: Comprobar si los servicios que muestra el sistema disponibles son los mas cercanos a la ubicacion del usuario
+Scenario: Comprobar si los servicios que muestra el sistema disponibles son los mas cercanos a la ubicacion del usuario
     Give que se debe mostrar al usuario los servicios disponibles mas cercanos a su ubicación
     When los servicios listados no son los más cercanos
     Then debe haber una alerta para revisar la falla y reparar el sistema
 
-Scenarios: Comprobar que la ubicación registrada en el sistema corresponde a la ubicacion usuario
+Scenario: Comprobar que la ubicación registrada en el sistema corresponde a la ubicacion usuario
     Give que se requiere guardar la ubicación del usuario
     When no cincide la ubicación guardada con la ubicación actual del usuario
     Then actualizar la ubicación en el sistema
 
-Scenarios: Comprobar el punto de inicio y fin del servicio solicitado por el usuario y si segun lo anterior el recorrido es correcto
+Scenario: Comprobar el punto de inicio y fin del servicio solicitado por el usuario y si segun lo anterior el recorrido es correcto
     Give 
     When 
     Then
 
-Scenarios: Comprobar si el calculo hecho por el sistema es correcto según el recorrido del usuario.
+Scenario: Comprobar si el calculo hecho por el sistema es correcto según el recorrido del usuario.
     Give 
     When 
     Then
 
-Scenarios: Comprobar el registro del servicio en el sistema
+Scenario: Comprobar el registro del servicio en el sistema
     Give 
     When 
     Then
