@@ -63,7 +63,7 @@ Se implementaria un servicio de geolocalización que enlace al usuario con los v
 9. Registrar servicio en el sistema
 
 
-BDD:
+****** BDD:
 
 Scenario: check user creation
     Given it is required to fill out a form with the user's information
