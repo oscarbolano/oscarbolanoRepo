@@ -36,20 +36,8 @@ Se implementaria un servicio de geolocalización que enlace al usuario con los v
     Prueba 2. Si el usuario existe comprobar que pueda ingresar al sistema
     Prueba 3. Si el usuario no existe comprobar que no pueda acceder al sistema 
 
-3. Loguear usuario con Google.
-    Prueba 1. Comprobar comunicación con servicio autenticación de google
-    Prueba 2. 
-
-4. Loguear usuario con Facebook.
-    Prueba 1. Comprobar comunicación con servicio autenticación de Facebook
-    Prueba 2. 
-
-5. Obtener servicio taxi disponible.
-    Prueba 1. Comprobar si los servicios de taxi que muestra el sistema disponibles son los mas cercanos a la ubicacion del usuario
-    Prueba 2. 
-
-6. Obtener servicio mototaxi disponible
-    Prueba 1. Comprobar si los servicios de mototaxi que muestra el sistema disponibles son los mas cercanos a la ubicacion del usuario
+5. Obtener servicio.
+    Prueba 1. Comprobar si los servicios que muestra el sistema disponibles son los mas cercanos a la ubicacion del usuario
     Prueba 2. 
 
 7. Registrar ubicación del usuario.
